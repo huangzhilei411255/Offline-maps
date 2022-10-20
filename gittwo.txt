@@ -1,0 +1,75 @@
+
+Admin@DESKTOP-JII0K8P MINGW64 ~/Desktop/newdev (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Admin@DESKTOP-JII0K8P MINGW64 ~/Desktop/newdev (master)
+$ git
+Display all 68 possibilities? (y or n)
+
+Admin@DESKTOP-JII0K8P MINGW64 ~/Desktop/newdev (master)
+$ git config user.name
+黄志磊
+
+Admin@DESKTOP-JII0K8P MINGW64 ~/Desktop/newdev (master)
+$ git config user.email
+17513150984@163.com
+
+Admin@DESKTOP-JII0K8P MINGW64 ~/Desktop/newdev (master)
+$ git re
+rebase         remote         replace        reset          revert
+reflog         repack         request-pull   restore
+
+Admin@DESKTOP-JII0K8P MINGW64 ~/Desktop/newdev (master)
+$ git re
+rebase         remote         replace        reset          revert
+reflog         repack         request-pull   restore
+
+Admin@DESKTOP-JII0K8P MINGW64 ~/Desktop/newdev (master)
+$ git remote add libra git@10.0.0.124:chenqiling/libra.git
+
+Admin@DESKTOP-JII0K8P MINGW64 ~/Desktop/newdev (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Admin@DESKTOP-JII0K8P MINGW64 ~/Desktop/newdev (master)
+$ git checkout -b dev_hzl_1
+Switched to a new branch 'dev_hzl_1'
+
+Admin@DESKTOP-JII0K8P MINGW64 ~/Desktop/newdev (dev_hzl_1)
+$ git pull libra dev
+remote: Enumerating objects: 16700, done.
+remote: Counting objects: 100% (16700/16700), done.
+remote: Compressing objects: 100% (5041/5041), done.
+remote: Total 16700 (delta 10155), reused 16620 (delta 10097)
+Receiving objects: 100% (16700/16700), 181.93 MiB | 25.63 MiB/s, done.
+Resolving deltas: 100% (10155/10155), done.
+From 10.0.0.124:chenqiling/libra
+ * branch              dev        -> FETCH_HEAD
+ * [new branch]        dev        -> libra/dev
+
+Admin@DESKTOP-JII0K8P MINGW64 ~/Desktop/newdev (dev_hzl_1)
+$ git status
+On branch dev_hzl_1
+nothing to commit, working tree clean
+
+Admin@DESKTOP-JII0K8P MINGW64 ~/Desktop/newdev (dev_hzl_1)
+$ git push libra dev_hzl_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: To create a merge request for dev_hzl_1, visit:
+remote:   http://10.0.0.124/chenqiling/libra/merge_requests/new?merge_request%5Bsource_branch%5D=dev_hzl_1
+remote:
+To 10.0.0.124:chenqiling/libra.git
+ * [new branch]        dev_hzl_1 -> dev_hzl_1
+
+Admin@DESKTOP-JII0K8P MINGW64 ~/Desktop/newdev (dev_hzl_1)
+$
