@@ -1,0 +1,1 @@
+window.globalJSData['im_group']['wechat _ lzc411'] = []

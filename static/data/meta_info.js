@@ -1,0 +1,1 @@
+window.globalJSData['meta_info'] = {"doPackage":false,"withAttach":false}

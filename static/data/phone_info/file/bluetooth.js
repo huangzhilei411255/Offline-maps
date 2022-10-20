@@ -1,0 +1,1 @@
+window.globalJSData['file']['bluetooth'] = []

@@ -1,0 +1,1 @@
+window.globalJSData['senior_function'] = [{"functionId":"map_analy","icon":"map_analy","title":"地理分析"},{"functionId":"finance","icon":"finance","title":"资金分析"}]
